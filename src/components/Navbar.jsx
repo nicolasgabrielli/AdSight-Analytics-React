@@ -66,7 +66,7 @@ function Navbar() {
                             mr: 1,
                         }}
                     >
-                        Juan Vásquez
+                        Nicolás Gabrielli
                     </Typography>
                     <Tooltip title={"Configuración"} placement="bottom" arrow>
                         <IconButton
@@ -77,7 +77,7 @@ function Navbar() {
                             aria-haspopup="true"
                             aria-expanded={open ? 'true' : undefined}
                         >
-                            <Avatar sx={{ width: 32, height: 32 }}>J</Avatar>
+                            <Avatar sx={{ width: 32, height: 32 }}>N</Avatar>
                         </IconButton>
                     </Tooltip>
                     <Menu
