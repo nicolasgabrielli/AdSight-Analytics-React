@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "UD Digi Kyokasho NK-B";
+  src: url("./assets/fonts/ud-digi-kyokasho-n-b.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fuente Regular */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400; /* Peso normal */
+  font-style: normal; /* Estilo normal */
+}
+
+/* Fuente Italic */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Italic.ttf") format("truetype");
+  font-weight: 400; /* Peso normal */
+  font-style: italic; /* Estilo italic */
+}
+
+/* Fuente Bold */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700; /* Peso bold */
+  font-style: normal;
+}
+
+/* Fuente Bold Italic */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Fuente Light */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: 300; /* Peso light */
+  font-style: normal;
+}
+
+/* Fuente Light Italic */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Fuente Extra Bold */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800; /* Peso extra bold */
+  font-style: normal;
+}
+
+/* Fuente Extra Bold Italic */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* Personalizar barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra */
+  height: 8px; /* Altura en scroll horizontal (opcional) */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #69696c; /* Color de la barra */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6A6A6C; /* Color al pasar el mouse */
+}
+
+::-webkit-scrollbar-track {
+  background: #434346; /* Fondo del track de la barra */
+  border-radius: 10px; /* Bordes redondeados del track */
+}
+
+@import "leaflet/dist/leaflet.css";
